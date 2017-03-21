@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_biografia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Temanormal"
+    tools:context="com.example.rafaelp.social.Biografia"
+    android:orientation="vertical">
+
+    <include layout="@layout/actionbar"></include>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/perfil"/>
+    <TextView
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/biografia"/>
+
+</LinearLayout>

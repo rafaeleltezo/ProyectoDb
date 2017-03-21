@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Social</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviar">Enviar</string>
+    <string name="biografia">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula risus nec consectetur ultrices. Nam euismod aliquam tellus, quis feugiat dolor volutpat et. Fusce id elit sed nulla feugiat molestie. Proin tortor arcu, lobortis eget dui ac, dapibus euismod tortor. Morbi ultricies tortor id urna viverra, ac interdum libero porta. Integer vel tellus libero. Quisque metus elit, gravida eu massa vel, molestie elementum urna. Proin id justo non lorem malesuada pretium. Nam ornare nibh hendrerit, placerat est quis, auctor urna. Donec laoreet sem ut cursus sodales. Morbi vel quam in lorem suscipit interdum. Curabitur iaculis non velit vitae fermentum.</string>
+</resources>
