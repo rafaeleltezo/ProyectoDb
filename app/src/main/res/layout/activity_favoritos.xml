@@ -8,4 +8,9 @@
 
     <include layout="@layout/actionbar" android:id="@+id/barra"></include>
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reciclar"
+        android:layout_below="@+id/barra"></android.support.v7.widget.RecyclerView>
 </RelativeLayout>

@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
         agregandoFragment();
         tabLayout=(TabLayout) findViewById(R.id.tablayout);
         tabLayout.setupWithViewPager(viewPager);
-        tabLayout.getTabAt(0).setText("Principal");
-        tabLayout.getTabAt(1).setText("Perfil");
+        tabLayout.getTabAt(0).setIcon(R.drawable.home);
+        tabLayout.getTabAt(1).setIcon(R.drawable.dog);
         imagenAtras.setVisibility(View.INVISIBLE);
         intento=new Intent(this,Favoritos.class);
         imagenestrella.setOnClickListener(new View.OnClickListener() {
