@@ -2,23 +2,33 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
     <com.mikhaellopez.circularimageview.CircularImageView
-        android:layout_width="match_parent"
+        android:layout_width="206dp"
         android:layout_height="200dp"
         android:id="@+id/imagenPerfil"
-        android:src="@drawable/mascota"/>
+        android:src="@drawable/mascota"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="@dimen/borde"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="@color/colorAccent"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rafael Barboza"/>
+        android:text="Rafael Barboza"
+        android:layout_gravity="center"/>
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/reciclerPerfil"
         android:scrollIndicators="left">
+
     </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

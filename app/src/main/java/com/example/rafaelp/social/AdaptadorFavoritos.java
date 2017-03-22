@@ -35,7 +35,6 @@ public class AdaptadorFavoritos extends RecyclerView.Adapter<AdaptadorRecicler.A
         holder.nombre.setText(contacto.getNombre());
         holder.imagen.setImageResource(contacto.getFoto());
         }
-
     }
 
     @Override

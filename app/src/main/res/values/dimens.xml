@@ -7,4 +7,6 @@
     <dimen name="boton">2dp</dimen>
     <dimen name="carta">2dp</dimen>
     <dimen name="appbar">4dp</dimen>
+    <dimen name="borde">4dp</dimen>
+    <dimen name="Floatboton">4.5dp</dimen>
 </resources>
