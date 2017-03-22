@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.mikhaellopez.circularimageview.CircularImageView;
+
 import java.util.ArrayList;
 
 /**
@@ -20,7 +22,7 @@ import java.util.ArrayList;
 public class FragmenPerfil extends Fragment {
     private RecyclerView reciclar;
     private ArrayList<Contacto> contactos;
-    private ImageView imageView;
+    private CircularImageView imageView;
 
     @Nullable
     @Override
@@ -29,7 +31,7 @@ public class FragmenPerfil extends Fragment {
         reciclar = (RecyclerView) vista.findViewById(R.id.reciclerPerfil);
         reciclar.setLayoutManager(new GridLayoutManager(getActivity(),2));
         reciclar.setAdapter(new AdaptadorReciclerPerfil(datos(),getActivity()));
-        imageView=(ImageView)vista.findViewById(R.id.imagenPerfil);
+        imageView =(CircularImageView )vista.findViewById(R.id.imagenPerfil);
         return vista;
     }
 

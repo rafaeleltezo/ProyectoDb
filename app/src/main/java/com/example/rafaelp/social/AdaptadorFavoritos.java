@@ -35,10 +35,6 @@ public class AdaptadorFavoritos extends RecyclerView.Adapter<AdaptadorRecicler.A
         holder.nombre.setText(contacto.getNombre());
         holder.imagen.setImageResource(contacto.getFoto());
         }
-        else {
-            Toast.makeText(activity,"No hay favoritos para mostrar",Toast.LENGTH_SHORT).show();
-        }
-
 
     }
 
