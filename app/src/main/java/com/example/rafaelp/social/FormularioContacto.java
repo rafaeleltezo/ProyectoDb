@@ -23,7 +23,7 @@ import javax.mail.internet.MimeMessage;
 public class FormularioContacto extends AppCompatActivity {
     private ImageView imagenAtras,imagenestrella;
     private Intent intento;
-    private TextView mensaje;
+    private TextView mensaje,correo;
     private Button enviar;
 
     @Override
@@ -32,6 +32,7 @@ public class FormularioContacto extends AppCompatActivity {
         setContentView(R.layout.activity_formulario_contacto);
         enviar=(Button)findViewById(R.id.enviar);
         mensaje=(TextView)findViewById(R.id.mensaje);
+        correo=(TextView) findViewById(R.id.correo);
         imagenAtras=(ImageView) findViewById(R.id.imagenAtras);
         imagenestrella=(ImageView) findViewById(R.id.imagenestrella);
         imagenAtras.setOnClickListener(new View.OnClickListener() {
@@ -57,9 +58,9 @@ public class FormularioContacto extends AppCompatActivity {
 
                 try {
                     MimeMessage msg = new MimeMessage(session);
-                    msg.setFrom("barboza.rafael.p@gmail.com");
+                    msg.setFrom(correo.getText().toString());
                     msg.setRecipients(Message.RecipientType.TO,
-                            "you@example.com");
+                            "barboza.rafael.p@gmail.com");
                     msg.setSubject("Comentario Aplicacion");
                     msg.setSentDate(new Date());
                     msg.setText(mensaje.getText().toString());
