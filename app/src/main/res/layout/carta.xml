@@ -27,7 +27,7 @@
             android:id="@+id/contadorLike"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="sdfd"
+
                 android:layout_centerVertical="true"
                 android:layout_toLeftOf="@+id/hueso"
                 android:layout_toStartOf="@+id/hueso" />
@@ -36,7 +36,7 @@
                 android:id="@+id/nombreCarta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="sdfdsadasd"
+
                 android:layout_marginLeft="21dp"
                 android:layout_marginStart="21dp"
                 android:layout_centerVertical="true"
