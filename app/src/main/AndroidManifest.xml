@@ -19,5 +19,6 @@
         <activity android:name=".Biografia" />
         <activity android:name="Favoritos"></activity>
     </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

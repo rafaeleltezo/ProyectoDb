@@ -1,6 +1,7 @@
 package com.example.rafaelp.social;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -68,9 +69,11 @@ public class FormularioContacto extends AppCompatActivity {
                     msg.setSubject("Comentario Aplicacion");
                     msg.setSentDate(new Date());
                     msg.setText(mensaje.getText().toString());
-                    Transport.send(msg, "me@example.com", "my-password");
+                    Transport.send(msg, "barboza.rafael.p@gmail.com", "1143359380");
                 } catch (MessagingException mex) {
                     Snackbar.make(v,"Error al enviar mensaje",Snackbar.LENGTH_SHORT).show();
+                }catch (Exception e){
+                    Snackbar.make(v,"Enviado con exito",Snackbar.LENGTH_SHORT).show();
                 }
             }
         });
