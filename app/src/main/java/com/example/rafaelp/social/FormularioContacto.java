@@ -69,7 +69,7 @@ public class FormularioContacto extends AppCompatActivity {
                     msg.setSubject("Comentario Aplicacion");
                     msg.setSentDate(new Date());
                     msg.setText(mensaje.getText().toString());
-                    Transport.send(msg, "barboza.rafael.p@gmail.com", "1143359380");
+                    Transport.send(msg, "barboza.rafael.p@gmail.com", "gjghg");
                 } catch (MessagingException mex) {
                     Snackbar.make(v,"Error al enviar mensaje",Snackbar.LENGTH_SHORT).show();
                 }catch (Exception e){
