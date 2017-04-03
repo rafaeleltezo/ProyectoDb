@@ -13,6 +13,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.example.rafaelp.social.R;
+import com.example.rafaelp.social.Modelo.*;
+import com.example.rafaelp.social.Vista.AdaptadorViewPager;
+import com.example.rafaelp.social.Vista.Biografia;
+import com.example.rafaelp.social.Vista.Favoritos;
+import com.example.rafaelp.social.Vista.FormularioContacto;
+import com.example.rafaelp.social.Vista.FragmenPerfil;
+import com.example.rafaelp.social.Vista.FragmentRecicler;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {

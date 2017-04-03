@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Temanormal"
-    tools:context="com.example.rafaelp.social.Biografia"
+    tools:context="com.example.rafaelp.social.Vista.Biografia"
     android:orientation="vertical">
 
     <include layout="@layout/actionbar"></include>
