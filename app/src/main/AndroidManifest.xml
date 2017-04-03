@@ -15,9 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FormularioContacto" />
-        <activity android:name=".Biografia" />
-        <activity android:name="Favoritos"></activity>
+        <activity android:name=".Vista.FormularioContacto" />
+        <activity android:name=".Vista.Biografia" />
+        <activity android:name=".Vista.Favoritos"></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
 

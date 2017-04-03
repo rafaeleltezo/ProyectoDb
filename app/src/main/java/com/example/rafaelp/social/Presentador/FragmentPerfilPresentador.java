@@ -28,5 +28,6 @@ public class FragmentPerfilPresentador implements iFragmenPerfilPresentador {
     @Override
     public void mostarRv() {
         ifragmentoperfil.iniciandoAdatador(ifragmentoperfil.setAdaptador(contactos));
+        ifragmentoperfil.setLayaout();
     }
 }
